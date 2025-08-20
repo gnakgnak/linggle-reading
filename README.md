@@ -49,16 +49,6 @@ On the client, `articleService` auto-detects the API base URL:
 - Local dev: `http://localhost:4000`
 - Deployed: same origin (relative `/api`)
 
-## Deploy on Render (recommended)
-1) Connect your GitHub repo on Render → New → Web Service
-2) Set build and start commands:
-   - Build Command: `npm install && npm run build`
-   - Start Command: `npm run start:prod`
-3) Deploy. You’ll get a public URL like `https://<service>.onrender.com`
-
-Notes
-- Free tier works well for testing (may sleep after inactivity).
-- Auto Deploy can be enabled so each push to `main` redeploys automatically.
 
 ## Project Structure
 ```
