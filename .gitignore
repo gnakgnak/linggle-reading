@@ -1,0 +1,9 @@
+     node_modules/
+     build/
+     .env
+     .DS_Store
+     coverage/
+     *.log
+     .cache/
+     .eslintcache
+     .vscode/
